@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="354.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.CurrencyController">
+   <children>
+      <TextField layoutX="14.0" layoutY="106.0" prefHeight="25.0" prefWidth="130.0" promptText="10000" />
+      <ChoiceBox layoutX="153.0" layoutY="106.0" prefHeight="25.0" prefWidth="55.0" />
+      <CubicCurve controlX1="319.0" controlX2="-168.0" controlY1="-106.0" controlY2="87.0" endX="161.0" endY="107.0" fill="#ffffff00" layoutX="221.0" layoutY="219.0" startX="-6.0" startY="-99.0" stroke="BLACK" />
+      <TextField editable="false" layoutX="392.0" layoutY="315.0" prefHeight="25.0" prefWidth="130.0" promptText="10000" />
+      <ChoiceBox layoutX="531.0" layoutY="315.0" prefHeight="25.0" prefWidth="55.0" />
+      <Label alignment="CENTER" layoutX="160.0" layoutY="14.0" prefHeight="65.0" prefWidth="280.0" text="Currency Converter">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backToPrincipal" text="Back" />
+      <Button layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#testApi" text="Test" />
+   </children>
+</AnchorPane>

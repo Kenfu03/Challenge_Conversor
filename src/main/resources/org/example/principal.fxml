@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.CubicCurve?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="355.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.PrincipalController">
+   <children>
+      <Label alignment="CENTER" layoutX="163.0" layoutY="17.0" prefHeight="44.0" prefWidth="274.0" text="Converters">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="choices" layoutX="225.0" layoutY="120.0" prefWidth="150.0" />
+      <Label layoutX="214.0" layoutY="61.0" text="Select what do yo like to do">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <CubicCurve controlX1="50.0" controlX2="-29.0" controlY1="-112.0" controlY2="133.0" endX="121.0" endY="64.0" fill="#1f93ff00" layoutX="280.0" layoutY="232.0" startX="-82.0" startY="-13.0" stroke="BLACK" />
+      <CubicCurve controlX1="136.0" controlX2="85.0" controlY1="-89.0" controlY2="91.0" endX="-7.20001220703125" endY="42.0" fill="#1f93ff00" layoutX="204.0" layoutY="254.0" startX="193.0" startY="-56.0" stroke="BLACK" />
+   </children>
+</AnchorPane>
